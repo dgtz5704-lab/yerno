@@ -142,6 +142,8 @@
 
 <button class="btn btn-yes" onclick="irPantalla3()">¡sí! ❤️</button>
 
+</div>
+
 <button id="btnNo" class="btn btn-no" onmouseover="moverBotonNo()" ontouchstart="moverBotonNo()">No😒
             
 </button>
@@ -211,15 +213,16 @@
         function apagarVelitas() {
             document.getElementById('pastel').innerHTML = "🍰🎂✨";
             lanzarParticulas(['💨', '🎉', '👏', '🥳']);
-        }
+            }
         // Mostrar el mensaje bonito al final
         function mostrarCarta() {
             const carta = document.getElementById('cartaMensaje');
             if(carta.style.display === 'block') {
-                carta.style.display = 'none';
+carta.style.display = 'none';
             } else {
                 carta.style.display = 'block';
-                lanzarParticulas(['💌', '💖', '✨']);
+                lanzarParticulas(['💌', '💖',
+                                  '✨']);
             }
         }
     </script>
