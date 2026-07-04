@@ -111,6 +111,8 @@
             0% { transform: translateY(-10vh) rotate(0deg) scale(1); opacity: 1; }
             100% { transform: translateY(110vh) rotate(360deg) scale(1.5); opacity: 0; }
         }
+        <button onclick="openModal()">🎁 Abrir regalo</button>
+<button onclick="No()">No🙂‍↔️</button>
         /* Mensaje final oculto */
         #cartaMensaje {
             display: none;
@@ -141,8 +143,11 @@
         <div style="position: relative; width: 100%; height: 200px; display: flex; justify-content: center; align-items: center;">
 
 <button class="btn btn-yes" onclick="irPantalla3()">¡sí! ❤️</button>
-  
-<button id="btnNo" class="btn btn-no" onmouseover="moverBotonNo()" ontouchstart="moverBotonNo()">No😒
+
+<button id="btnNo" class="btn btn-no" onmouseover="moverBotonNo()"
+
+<button onclick="openModal()">si</button>
+<button onclick="No()">No🥱</button>
             
 </button>
 </div>
