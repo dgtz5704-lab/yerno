@@ -112,7 +112,7 @@
             100% { transform: translateY(110vh) rotate(360deg) scale(1.5); opacity: 0; }
         }
         <button onclick="openModal()">🎁 Abrir regalo</button>
-<button onclick="No()">No🙂‍↔️</button>
+<button onclick="No()">No🙂‍↔️
         /* Mensaje final oculto */
         #cartaMensaje {
             display: none;
@@ -145,8 +145,6 @@
 <button class="btn btn-yes" onclick="irPantalla3()">¡sí! ❤️</button>
 
 <button onclick="celebrar()">No🥱</button>
-            
-</button>
 </div>
     </div>
     <div id="pantalla3" class="screen hidden" style="background: transparent; backdrop-filter: none;">
